@@ -1,0 +1,9 @@
+default-scenarios = ["androidStudioSync"]
+
+androidStudioSync {
+    title = "Android Studio Sync"
+    versions = [ "8.0" ]
+    warm-ups = 1
+    iterations = 1
+    android-studio-sync {}
+}
